@@ -1,3 +1,18 @@
 body{
     background-color: cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+}
+div{
+ display: grid;
+ grid-template: auto / 1fr 1fr 1fr;
+ grid-gap: 30px;
+}
+p{
+    color: beige;
+    text-align: justify;
 }
